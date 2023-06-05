@@ -1,0 +1,25 @@
+---
+title: "Use Linux to navigate in High Performance Computing (HPC)"
+author: "Presented by The Bioinformatics and Biostatistics Core (BBC)"
+date: "DATE: 06/08/2023"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: vari-bbc/Intro_to_Linux_for_HPC
+theme: "yeti"
+description: "Linux tutorials with hands-on exercises, clear explanation, and useful examples for using HPC."
+---
+
+# **Introduction**
+
+Welcome to the introduction to Linux tutorials. This tutorial will walk users through some of the standard line commands to use on High-Performance Computing System (HPC), and navigate users how to direct, inspect and understand the file system. Throughout the exercise, the user will be provided with clear explanations, practical examples, and hands-on exercises to ensure the user’s learning journey is enjoyable and valuable.
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
